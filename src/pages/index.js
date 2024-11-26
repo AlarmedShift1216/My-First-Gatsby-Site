@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 const pageStyles = {
   color: "#232129",
@@ -135,6 +136,10 @@ const IndexPage = () => {
       <p style={paragraphStyles}>
         I have no idea what I am doing. 😎
       </p>
+      <StaticImage
+        alt="Here is a picture of myself"
+        src="C:\Users\COMM\my-first-gatsby-site\src\images\myself.jpg"
+      />
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
